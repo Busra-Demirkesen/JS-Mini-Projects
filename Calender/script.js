@@ -39,10 +39,7 @@ for(let i = firstDay; i>0; i--){
         }    
         else{
             days += `<div>${i}</div>`;
-        }
-
-
-       
+        }  
     }
 
 daysEl.innerHTML = days;
